@@ -1,12 +1,101 @@
-# React + Vite
+# 🚀 Rust + Solana 80/20 Learning Roadmap
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a  React application designed to help you track your 8-week Rust + Solana learning journey. The app features a dropdown menu for each week, rendering topics, projects, mini exercises, and interview questions.
 
-Currently, two official plugins are available:
+### 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [roadsolana.netlify.app](https://roadsolana.netlify.app)
+- [roadsolana.adarsh.website](https://roadsolana.adarsh.website)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Project Structure
+
+```
+/src
+  ├── assets
+  ├── components
+  │   └── UI
+  │       ├── Button.jsx
+  │       ├── Card.jsx
+  │       ├── Select.jsx
+  │       ├── SelectOption.jsx
+  │       ├── Dropdown.jsx
+  │       ├── InterviewQuestions.jsx
+  │       ├── MiniExercises.jsx
+  │       ├── ProgressTracker.jsx
+  │       ├── ProjectDetails.jsx
+  │       ├── RoadmapApp.jsx
+  │       ├── RoadmapView.jsx
+  │       ├── TopicList.jsx
+  ├── data
+  │   └── roadmapData.js
+  ├── App.jsx
+  ├── App.css
+  ├── index.css
+  ├── main.jsx
+```
+
+---
+
+## 📦 Installation
+
+1. Clone the repository:
+
+```
+git clone https://github.com/your-username/roadsolana.git
+```
+
+2. Navigate to the project directory:
+
+```
+cd roadsolana
+```
+
+3. Install dependencies:
+
+```
+npm install
+```
+
+4. Start the development server:
+
+```
+npm run dev
+```
+
+---
+
+## 🚀 Deployment
+
+The app is automatically deployed to Netlify and updates with every push to the GitHub repository.
+
+- Deployed at: [roadsolana.netlify.app](https://roadsolana.netlify.app)
+- Custom Domain: [roadsolana.adarsh.website](https://roadsolana.adarsh.website)
+
+---
+
+## 📌 Features
+
+- Weekly learning roadmap with topics, projects, exercises, and interview questions.
+- Modular components for better maintainability.
+- Tailwind CSS for styling.
+- Vite for fast builds and development.
+
+### 🔨 Upcoming Features
+
+- **Improved UI Design** using Tailwind CSS components.
+- **Authentication System** with Prisma ORM and MySQL (User Registration, Login, Progress Tracking).
+- **PostgreSQL Integration** for persistent data storage.
+- **User Dashboard** for tracking completed exercises and questions.
+
+---
+
+## 📋 License
+
+This project is licensed under the MIT License.
+
+---
+
+Happy coding! 🎉
+
